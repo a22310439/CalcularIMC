@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Subtítulo de la app -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+
+        android:paddingBottom="16dp" />
+
+    <!-- EditText para ingresar estatura -->
+    <EditText
+        android:id="@+id/etEstatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_height"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <!-- EditText para ingresar peso -->
+    <EditText
+        android:id="@+id/etPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_weight"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para calcular IMC -->
+    <Button
+        android:id="@+id/btnCalcularIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_imc"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

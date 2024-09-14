@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalcularIMC</string>
+    <string name="app_title">App para calcular IMC</string>
+    <string name="subtitle">Calculadora del Índice de Masa Corporal</string>
+    <string name="enter_height">Ingresa tu estatura en metros</string>
+    <string name="enter_weight">Ingresa tu peso en kilogramos</string>
+    <string name="calculate_imc">CALCULAR IMC</string>
+</resources>
